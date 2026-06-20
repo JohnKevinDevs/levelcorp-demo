@@ -38,6 +38,9 @@ Atalhos diretos:
 6. Output Directory: `dist`.
 7. Clique em Deploy.
 
+Esta demo usa apenas a rota raiz com query params. Nao adicione rewrite global
+para `index.html`, pois o arquivo raiz ja e servido automaticamente pela Vercel.
+
 Nenhuma variavel de ambiente e necessaria.
 
 ## Aviso
