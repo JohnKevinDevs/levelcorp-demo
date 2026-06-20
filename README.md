@@ -13,33 +13,28 @@ Versao estatica e independente da LevelCorp para demonstracoes rapidas.
 
 ## Executar localmente
 
-Rode o servidor estatico incluido:
-
-```powershell
-npm.cmd run dev
-```
-
-Abra `http://localhost:4173`.
+Abra `index.html` diretamente no navegador.
 
 Atalhos diretos:
 
-- `http://localhost:4173/?role=ceo`
-- `http://localhost:4173/?role=gestor`
-- `http://localhost:4173/?role=colaborador`
-- `http://localhost:4173/?role=ceo&page=map`
+- `https://seu-projeto.vercel.app/?role=ceo`
+- `https://seu-projeto.vercel.app/?role=gestor`
+- `https://seu-projeto.vercel.app/?role=colaborador`
+- `https://seu-projeto.vercel.app/?role=ceo&page=map`
 
 ## Deploy na Vercel
 
 1. Envie esta pasta para o GitHub.
 2. Importe o repositorio na Vercel.
-3. Configure `LevelCorp-frontend-demo` como Root Directory.
+3. Como este repositorio ja contem a demo na raiz, mantenha Root Directory vazio.
 4. Framework Preset: `Other`.
-5. A Vercel usara automaticamente `npm run build`.
-6. Output Directory: `dist`.
-7. Clique em Deploy.
+5. Build Command: vazio.
+6. Output Directory: vazio.
+7. Install Command: vazio.
+8. Clique em Deploy.
 
-Esta demo usa apenas a rota raiz com query params. Nao adicione rewrite global
-para `index.html`, pois o arquivo raiz ja e servido automaticamente pela Vercel.
+A Vercel publica `index.html`, `styles.css` e `app.js` diretamente. Nao existe
+servidor ou Serverless Function nesta versao.
 
 Nenhuma variavel de ambiente e necessaria.
 
