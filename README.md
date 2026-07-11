@@ -2,6 +2,10 @@
 
 Versao estatica e independente da LevelCorp para demonstracoes rapidas.
 
+## Screenshot
+
+![LevelCorp demo login screen](docs/assets/screenshots/home.png)
+
 ## Caracteristicas
 
 - Sem backend.
