@@ -2,9 +2,15 @@
 
 Versao estatica e independente da LevelCorp para demonstracoes rapidas.
 
-## Screenshot
+## Screenshots
 
-![LevelCorp demo login screen](docs/assets/screenshots/home.png)
+| Login | Dashboard CEO |
+| --- | --- |
+| ![LevelCorp demo login screen](docs/assets/screenshots/home.png) | ![LevelCorp CEO dashboard](docs/assets/screenshots/dashboard-ceo.png) |
+
+| Dashboard Gestor | Dashboard Colaborador |
+| --- | --- |
+| ![LevelCorp manager dashboard](docs/assets/screenshots/dashboard-gestor.png) | ![LevelCorp collaborator dashboard](docs/assets/screenshots/dashboard-colaborador.png) |
 
 ## Caracteristicas
 
